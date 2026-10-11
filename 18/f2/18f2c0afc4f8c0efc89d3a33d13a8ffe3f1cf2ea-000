@@ -1,0 +1,728 @@
+{
+ "name": "DemoTiles_H1",
+ "net": "/obj/ZRH_DemoTiles",
+ "reference": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/DemoTiles/refs/DemoTiles_height_2048.png",
+ "layers": [
+  {
+   "local": null,
+   "layer": "joint_profile",
+   "status": "accepted",
+   "score": 0.4881,
+   "gain": null,
+   "summary": {
+    "pearson": 0.393,
+    "mae": 0.0839,
+    "low32": 0.138,
+    "b1-2": 0.2906,
+    "b4-8": 0.596,
+    "b16-32": 0.5369,
+    "q25": 0.0,
+    "q75": 0.1636,
+    "lines": 0.157,
+    "struct": 0.24,
+    "detail": 0.377
+   },
+   "note": "measured joint profile",
+   "seconds": 5.6,
+   "nodes": 14,
+   "timing": {
+    "kept_layers": 0,
+    "new_layers": 1,
+    "t_nodes": 0.01,
+    "t_cook_export": 0.5
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/DemoTiles/versions/final/DemoTiles_H1/L01_joint_profile.png",
+   "gates": {
+    "A_thumb64_mae_pct": 13.083,
+    "D_joint_profile_corr": 0.9951,
+    "D_joint_profile_mae_pct": 1.066,
+    "G_band_energy_ratio": {
+     "1-2": 0.321,
+     "2-4": 0.471,
+     "4-8": 0.548,
+     "8-16": 0.494,
+     "16-32": 0.456
+    },
+    "F_residual_w1_pct": 1.432,
+    "F_residual_std_ratio": 0.295,
+    "J_rmse": 0.1078,
+    "J_floor_if_stochastic": 0.018
+   }
+  },
+  {
+   "local": {
+    "ok": true,
+    "pixels": 964272,
+    "before": 0.0859,
+    "after": 0.0813,
+    "ls_gain": 1.121
+   },
+   "layer": "side_profiles",
+   "status": "accepted",
+   "score": 0.5019,
+   "gain": 0.0138,
+   "summary": {
+    "pearson": 0.4144,
+    "mae": 0.0828,
+    "low32": 0.225,
+    "b1-2": 0.3237,
+    "b4-8": 0.6123,
+    "b16-32": 0.5325,
+    "q25": 0.0489,
+    "q75": 0.1739,
+    "lines": 0.156,
+    "struct": 0.269,
+    "detail": 0.395
+   },
+   "note": "per side joint profiles",
+   "seconds": 5.1,
+   "nodes": 27,
+   "timing": {
+    "kept_layers": 1,
+    "new_layers": 1,
+    "t_nodes": 0.01,
+    "t_cook_export": 0.11
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/DemoTiles/versions/final/DemoTiles_H1/L02_side_profiles.png",
+   "gates": {
+    "A_thumb64_mae_pct": 12.864,
+    "D_joint_profile_corr": 0.9991,
+    "D_joint_profile_mae_pct": 0.6,
+    "G_band_energy_ratio": {
+     "1-2": 0.328,
+     "2-4": 0.477,
+     "4-8": 0.585,
+     "8-16": 0.54,
+     "16-32": 0.503
+    },
+    "F_residual_w1_pct": 1.4,
+    "F_residual_std_ratio": 0.304,
+    "J_rmse": 0.1066,
+    "J_floor_if_stochastic": 0.018
+   }
+  },
+  {
+   "local": {
+    "ok": true,
+    "pixels": 4104720,
+    "before": 0.0834,
+    "after": 0.0724,
+    "ls_gain": 0.901
+   },
+   "layer": "row_table",
+   "status": "accepted",
+   "score": 0.6065,
+   "gain": 0.1045,
+   "summary": {
+    "pearson": 0.6288,
+    "mae": 0.072,
+    "low32": 0.725,
+    "b1-2": 0.3148,
+    "b4-8": 0.6163,
+    "b16-32": 0.5486,
+    "q25": 0.2515,
+    "q75": 0.4203,
+    "lines": 0.129,
+    "struct": 0.473,
+    "detail": 0.385
+   },
+   "note": "per row offset",
+   "seconds": 4.8,
+   "nodes": 30,
+   "timing": {
+    "kept_layers": 2,
+    "new_layers": 1,
+    "t_nodes": 0.0,
+    "t_cook_export": 0.1
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/DemoTiles/versions/final/DemoTiles_H1/L03_row_table.png",
+   "gates": {
+    "A_thumb64_mae_pct": 10.536,
+    "D_joint_profile_corr": 0.9992,
+    "D_joint_profile_mae_pct": 0.62,
+    "G_band_energy_ratio": {
+     "1-2": 0.338,
+     "2-4": 0.49,
+     "4-8": 0.601,
+     "8-16": 0.566,
+     "16-32": 0.543
+    },
+    "F_residual_w1_pct": 1.399,
+    "F_residual_std_ratio": 0.313,
+    "J_rmse": 0.0911,
+    "J_floor_if_stochastic": 0.018
+   }
+  },
+  {
+   "local": {
+    "ok": true,
+    "pixels": 3309804,
+    "before": 0.0757,
+    "after": 0.0691,
+    "ls_gain": 0.785
+   },
+   "layer": "row_plane",
+   "status": "accepted",
+   "score": 0.645,
+   "gain": 0.0386,
+   "summary": {
+    "pearson": 0.697,
+    "mae": 0.0668,
+    "low32": 0.852,
+    "b1-2": 0.3119,
+    "b4-8": 0.6078,
+    "b16-32": 0.5217,
+    "q25": 0.3966,
+    "q75": 0.4348,
+    "lines": 0.129,
+    "struct": 0.542,
+    "detail": 0.383
+   },
+   "note": "per row plane",
+   "seconds": 5.3,
+   "nodes": 39,
+   "timing": {
+    "kept_layers": 3,
+    "new_layers": 1,
+    "t_nodes": 0.0,
+    "t_cook_export": 0.15
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/DemoTiles/versions/final/DemoTiles_H1/L04_row_plane.png",
+   "gates": {
+    "A_thumb64_mae_pct": 9.171,
+    "D_joint_profile_corr": 0.9993,
+    "D_joint_profile_mae_pct": 0.591,
+    "G_band_energy_ratio": {
+     "1-2": 0.348,
+     "2-4": 0.502,
+     "4-8": 0.621,
+     "8-16": 0.615,
+     "16-32": 0.652
+    },
+    "F_residual_w1_pct": 1.394,
+    "F_residual_std_ratio": 0.323,
+    "J_rmse": 0.0844,
+    "J_floor_if_stochastic": 0.018
+   }
+  },
+  {
+   "local": {
+    "ok": true,
+    "pixels": 871140,
+    "before": 0.0799,
+    "after": 0.077,
+    "ls_gain": 0.991,
+    "refit": true
+   },
+   "layer": "corners",
+   "status": "accepted",
+   "score": 0.6487,
+   "gain": 0.0037,
+   "summary": {
+    "pearson": 0.7018,
+    "mae": 0.066,
+    "low32": 0.859,
+    "b1-2": 0.3124,
+    "b4-8": 0.6071,
+    "b16-32": 0.5191,
+    "q25": 0.3957,
+    "q75": 0.4381,
+    "lines": 0.129,
+    "struct": 0.548,
+    "detail": 0.383
+   },
+   "note": "per row bilinear corners",
+   "seconds": 5.4,
+   "nodes": 60,
+   "timing": {
+    "kept_layers": 4,
+    "new_layers": 1,
+    "t_nodes": 0.01,
+    "t_cook_export": 0.13
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/DemoTiles/versions/final/DemoTiles_H1/L05_corners.png",
+   "gates": {
+    "A_thumb64_mae_pct": 9.032,
+    "D_joint_profile_corr": 0.9993,
+    "D_joint_profile_mae_pct": 0.591,
+    "G_band_energy_ratio": {
+     "1-2": 0.349,
+     "2-4": 0.502,
+     "4-8": 0.622,
+     "8-16": 0.619,
+     "16-32": 0.66
+    },
+    "F_residual_w1_pct": 1.393,
+    "F_residual_std_ratio": 0.324,
+    "J_rmse": 0.0838,
+    "J_floor_if_stochastic": 0.018
+   }
+  },
+  {
+   "local": {
+    "ok": true,
+    "pixels": 3315596,
+    "before": 0.0705,
+    "after": 0.0526,
+    "ls_gain": 1.545
+   },
+   "layer": "regions_s32",
+   "status": "accepted",
+   "score": 0.731,
+   "gain": 0.0822,
+   "summary": {
+    "pearson": 0.8215,
+    "mae": 0.0518,
+    "low32": 0.982,
+    "b1-2": 0.3126,
+    "b4-8": 0.6103,
+    "b16-32": 0.7005,
+    "q25": 0.4881,
+    "q75": 0.5526,
+    "lines": 0.129,
+    "struct": 0.724,
+    "detail": 0.384
+   },
+   "note": "8 posterised bins of residual low pass s32 at 512 px, 360 regions",
+   "seconds": 5.8,
+   "nodes": 65,
+   "timing": {
+    "kept_layers": 5,
+    "new_layers": 1,
+    "t_nodes": 0.07,
+    "t_cook_export": 0.28
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/DemoTiles/versions/final/DemoTiles_H1/L06_regions_s32.png",
+   "gates": {
+    "A_thumb64_mae_pct": 5.502,
+    "D_joint_profile_corr": 0.9992,
+    "D_joint_profile_mae_pct": 0.6,
+    "G_band_energy_ratio": {
+     "1-2": 0.349,
+     "2-4": 0.502,
+     "4-8": 0.623,
+     "8-16": 0.621,
+     "16-32": 0.679
+    },
+    "F_residual_w1_pct": 1.393,
+    "F_residual_std_ratio": 0.324,
+    "J_rmse": 0.0668,
+    "J_floor_if_stochastic": 0.018
+   }
+  },
+  {
+   "local": {
+    "ok": true,
+    "pixels": 2775443,
+    "before": 0.0583,
+    "after": 0.0434,
+    "ls_gain": 1.836
+   },
+   "layer": "regions_s16",
+   "status": "accepted",
+   "score": 0.786,
+   "gain": 0.055,
+   "summary": {
+    "pearson": 0.8834,
+    "mae": 0.0417,
+    "low32": 0.997,
+    "b1-2": 0.315,
+    "b4-8": 0.6386,
+    "b16-32": 0.9178,
+    "q25": 0.5731,
+    "q75": 0.6364,
+    "lines": 0.128,
+    "struct": 0.822,
+    "detail": 0.393
+   },
+   "note": "8 posterised bins of residual low pass s16 at 512 px, 3630 regions",
+   "seconds": 6.7,
+   "nodes": 70,
+   "timing": {
+    "kept_layers": 6,
+    "new_layers": 1,
+    "t_nodes": 0.16,
+    "t_cook_export": 0.39
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/DemoTiles/versions/final/DemoTiles_H1/L07_regions_s16.png",
+   "gates": {
+    "A_thumb64_mae_pct": 2.991,
+    "D_joint_profile_corr": 0.9992,
+    "D_joint_profile_mae_pct": 0.449,
+    "G_band_energy_ratio": {
+     "1-2": 0.349,
+     "2-4": 0.503,
+     "4-8": 0.627,
+     "8-16": 0.653,
+     "16-32": 0.795
+    },
+    "F_residual_w1_pct": 1.388,
+    "F_residual_std_ratio": 0.324,
+    "J_rmse": 0.055,
+    "J_floor_if_stochastic": 0.018
+   }
+  },
+  {
+   "local": {
+    "ok": true,
+    "pixels": 2580009,
+    "before": 0.0499,
+    "after": 0.0347,
+    "ls_gain": 1.923
+   },
+   "layer": "regions_s8",
+   "status": "accepted",
+   "score": 0.8364,
+   "gain": 0.0504,
+   "summary": {
+    "pearson": 0.9294,
+    "mae": 0.0319,
+    "low32": 0.999,
+    "b1-2": 0.3397,
+    "b4-8": 0.7648,
+    "b16-32": 0.9856,
+    "q25": 0.6564,
+    "q75": 0.7274,
+    "lines": 0.131,
+    "struct": 0.873,
+    "detail": 0.444
+   },
+   "note": "8 posterised bins of residual low pass s8 at 1024 px, 12227 regions",
+   "seconds": 7.3,
+   "nodes": 75,
+   "timing": {
+    "kept_layers": 7,
+    "new_layers": 1,
+    "t_nodes": 0.47,
+    "t_cook_export": 0.41
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/DemoTiles/versions/final/DemoTiles_H1/L08_regions_s8.png",
+   "gates": {
+    "A_thumb64_mae_pct": 1.297,
+    "D_joint_profile_corr": 0.9995,
+    "D_joint_profile_mae_pct": 0.319,
+    "G_band_energy_ratio": {
+     "1-2": 0.354,
+     "2-4": 0.515,
+     "4-8": 0.667,
+     "8-16": 0.778,
+     "16-32": 0.917
+    },
+    "F_residual_w1_pct": 1.35,
+    "F_residual_std_ratio": 0.328,
+    "J_rmse": 0.0434,
+    "J_floor_if_stochastic": 0.018
+   }
+  },
+  {
+   "local": {
+    "ok": true,
+    "pixels": 103255,
+    "before": 0.057,
+    "after": 0.0379,
+    "ls_gain": 0.934,
+    "refit": true
+   },
+   "layer": "lines",
+   "status": "accepted",
+   "score": 0.8442,
+   "gain": 0.0077,
+   "summary": {
+    "pearson": 0.9317,
+    "mae": 0.0314,
+    "low32": 0.999,
+    "b1-2": 0.4275,
+    "b4-8": 0.7752,
+    "b16-32": 0.9854,
+    "q25": 0.6601,
+    "q75": 0.733,
+    "lines": 0.172,
+    "struct": 0.875,
+    "detail": 0.491
+   },
+   "note": "traced ridge centrelines (4182)",
+   "seconds": 10.9,
+   "nodes": 82,
+   "timing": {
+    "kept_layers": 8,
+    "new_layers": 1,
+    "t_nodes": 0.08,
+    "t_cook_export": 0.35
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/DemoTiles/versions/final/DemoTiles_H1/L09_lines.png",
+   "gates": {
+    "A_thumb64_mae_pct": 1.31,
+    "D_joint_profile_corr": 0.9996,
+    "D_joint_profile_mae_pct": 0.356,
+    "G_band_energy_ratio": {
+     "1-2": 0.429,
+     "2-4": 0.524,
+     "4-8": 0.672,
+     "8-16": 0.781,
+     "16-32": 0.918
+    },
+    "F_residual_w1_pct": 1.175,
+    "F_residual_std_ratio": 0.606,
+    "J_rmse": 0.0428,
+    "J_floor_if_stochastic": 0.018
+   }
+  },
+  {
+   "local": {
+    "ok": true,
+    "pixels": 102037,
+    "before": 0.1119,
+    "after": 0.044,
+    "ls_gain": 1.424
+   },
+   "layer": "blobs",
+   "status": "accepted",
+   "score": 0.8636,
+   "gain": 0.0194,
+   "summary": {
+    "pearson": 0.9433,
+    "mae": 0.0297,
+    "low32": 0.999,
+    "b1-2": 0.5224,
+    "b4-8": 0.8311,
+    "b16-32": 0.9856,
+    "q25": 0.6732,
+    "q75": 0.7486,
+    "lines": 0.295,
+    "struct": 0.881,
+    "detail": 0.589
+   },
+   "note": "2597 compact blobs of high pass s6 beyond quantile 0.985",
+   "seconds": 6.9,
+   "nodes": 87,
+   "timing": {
+    "kept_layers": 9,
+    "new_layers": 1,
+    "t_nodes": 0.06,
+    "t_cook_export": 0.43
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/DemoTiles/versions/final/DemoTiles_H1/L10_blobs.png",
+   "gates": {
+    "A_thumb64_mae_pct": 1.282,
+    "D_joint_profile_corr": 0.9995,
+    "D_joint_profile_mae_pct": 0.388,
+    "G_band_energy_ratio": {
+     "1-2": 0.57,
+     "2-4": 0.582,
+     "4-8": 0.688,
+     "8-16": 0.788,
+     "16-32": 0.919
+    },
+    "F_residual_w1_pct": 1.029,
+    "F_residual_std_ratio": 0.76,
+    "J_rmse": 0.0392,
+    "J_floor_if_stochastic": 0.018
+   }
+  },
+  {
+   "local": {
+    "ok": true,
+    "pixels": 1974244,
+    "before": 0.0416,
+    "after": 0.0246,
+    "ls_gain": 1.92
+   },
+   "layer": "regions_s4",
+   "status": "accepted",
+   "score": 0.907,
+   "gain": 0.0434,
+   "summary": {
+    "pearson": 0.9702,
+    "mae": 0.0207,
+    "low32": 1.0,
+    "b1-2": 0.5925,
+    "b4-8": 0.9409,
+    "b16-32": 0.9956,
+    "q25": 0.7669,
+    "q75": 0.822,
+    "lines": 0.322,
+    "struct": 0.917,
+    "detail": 0.669
+   },
+   "note": "8 posterised bins of residual low pass s4 at 1024 px, 32372 regions",
+   "seconds": 8.5,
+   "nodes": 92,
+   "timing": {
+    "kept_layers": 10,
+    "new_layers": 1,
+    "t_nodes": 1.03,
+    "t_cook_export": 0.63
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/DemoTiles/versions/final/DemoTiles_H1/L11_regions_s4.png",
+   "gates": {
+    "A_thumb64_mae_pct": 0.575,
+    "D_joint_profile_corr": 0.9997,
+    "D_joint_profile_mae_pct": 0.226,
+    "G_band_energy_ratio": {
+     "1-2": 0.603,
+     "2-4": 0.649,
+     "4-8": 0.8,
+     "8-16": 0.904,
+     "16-32": 0.966
+    },
+    "F_residual_w1_pct": 0.947,
+    "F_residual_std_ratio": 0.782,
+    "J_rmse": 0.0287,
+    "J_floor_if_stochastic": 0.018
+   }
+  },
+  {
+   "local": {
+    "ok": true,
+    "pixels": 1042557,
+    "before": 0.0356,
+    "after": 0.0245,
+    "ls_gain": 2.438
+   },
+   "layer": "regions_s4_p2",
+   "status": "accepted",
+   "score": 0.9271,
+   "gain": 0.0201,
+   "summary": {
+    "pearson": 0.9794,
+    "mae": 0.0165,
+    "low32": 1.0,
+    "b1-2": 0.6534,
+    "b4-8": 0.9695,
+    "b16-32": 0.9973,
+    "q25": 0.8124,
+    "q75": 0.8584,
+    "lines": 0.35,
+    "struct": 0.933,
+    "detail": 0.713
+   },
+   "note": "8 posterised bins of residual low pass s4 at 2048 px, 67830 regions",
+   "seconds": 12.9,
+   "nodes": 97,
+   "timing": {
+    "kept_layers": 11,
+    "new_layers": 1,
+    "t_nodes": 2.19,
+    "t_cook_export": 0.58
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/DemoTiles/versions/final/DemoTiles_H1/L12_regions_s4_p2.png",
+   "gates": {
+    "A_thumb64_mae_pct": 0.356,
+    "D_joint_profile_corr": 0.9998,
+    "D_joint_profile_mae_pct": 0.194,
+    "G_band_energy_ratio": {
+     "1-2": 0.645,
+     "2-4": 0.72,
+     "4-8": 0.877,
+     "8-16": 0.949,
+     "16-32": 0.98
+    },
+    "F_residual_w1_pct": 0.862,
+    "F_residual_std_ratio": 0.812,
+    "J_rmse": 0.0238,
+    "J_floor_if_stochastic": 0.018
+   }
+  },
+  {
+   "local": {
+    "ok": true,
+    "pixels": 0,
+    "ls_gain": 1.0
+   },
+   "layer": "regions_s4_p3",
+   "status": "accepted",
+   "score": 0.9365,
+   "gain": 0.0094,
+   "summary": {
+    "pearson": 0.9831,
+    "mae": 0.0146,
+    "low32": 1.0,
+    "b1-2": 0.6888,
+    "b4-8": 0.9783,
+    "b16-32": 0.9979,
+    "q25": 0.8342,
+    "q75": 0.8745,
+    "lines": 0.369,
+    "struct": 0.941,
+    "detail": 0.735
+   },
+   "note": "8 posterised bins of residual low pass s4 at 2048 px, 89735 regions",
+   "seconds": 13.4,
+   "nodes": 102,
+   "timing": {
+    "kept_layers": 12,
+    "new_layers": 1,
+    "t_nodes": 2.67,
+    "t_cook_export": 0.66
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/DemoTiles/versions/final/DemoTiles_H1/L13_regions_s4_p3.png",
+   "gates": {
+    "A_thumb64_mae_pct": 0.277,
+    "D_joint_profile_corr": 0.9998,
+    "D_joint_profile_mae_pct": 0.191,
+    "G_band_energy_ratio": {
+     "1-2": 0.681,
+     "2-4": 0.768,
+     "4-8": 0.913,
+     "8-16": 0.963,
+     "16-32": 0.984
+    },
+    "F_residual_w1_pct": 0.795,
+    "F_residual_std_ratio": 0.839,
+    "J_rmse": 0.0215,
+    "J_floor_if_stochastic": 0.018
+   }
+  },
+  {
+   "local": null,
+   "layer": "eq",
+   "status": "accepted",
+   "score": 0.9466,
+   "gain": 0.0101,
+   "summary": {
+    "pearson": 0.9861,
+    "mae": 0.013,
+    "low32": 1.0,
+    "b1-2": 0.7389,
+    "b4-8": 0.9792,
+    "b16-32": 0.9979,
+    "q25": 0.8523,
+    "q75": 0.8921,
+    "lines": 0.428,
+    "struct": 0.948,
+    "detail": 0.763
+   },
+   "note": "frequency equaliser, least squares at full resolution",
+   "seconds": 5.3,
+   "nodes": 116,
+   "timing": {
+    "kept_layers": 13,
+    "new_layers": 1,
+    "t_nodes": 0.0,
+    "t_cook_export": 0.57
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/DemoTiles/versions/final/DemoTiles_H1/L14_eq.png",
+   "gates": {
+    "A_thumb64_mae_pct": 0.257,
+    "D_joint_profile_corr": 0.9988,
+    "D_joint_profile_mae_pct": 0.632,
+    "G_band_energy_ratio": {
+     "1-2": 0.718,
+     "2-4": 0.883,
+     "4-8": 1.009,
+     "8-16": 1.002,
+     "16-32": 0.994
+    },
+    "F_residual_w1_pct": 0.681,
+    "F_residual_std_ratio": 0.693,
+    "J_rmse": 0.0194,
+    "J_floor_if_stochastic": 0.018
+   }
+  }
+ ],
+ "cells": [
+  4,
+  4
+ ],
+ "fade": 0.01953125
+}
