@@ -1,0 +1,23 @@
+{
+ "before": {
+  "seam": {
+   "wrap_x": 0.00028905714020766027,
+   "inner_x_median": 0.04280294901684556,
+   "ratio_x": 0.41857815457904607,
+   "wrap_y": 1.6086049072328024e-05,
+   "inner_y_median": 0.013459061658409155,
+   "ratio_y": 0.017767207529498313,
+   "lattice_x": 0.0006905691017209392,
+   "lattice_y": 0.0009053785771129697
+  },
+  "pearson": 0.9977840781211853
+ },
+ "layer": {
+  "type": "seam",
+  "shift_x": 0.0,
+  "shift_y": 0.0,
+  "width": 0.001953125,
+  "note": "tileable borders, cross-fade with the wrapped copy shifted by whole cells"
+ },
+ "applied": false
+}
