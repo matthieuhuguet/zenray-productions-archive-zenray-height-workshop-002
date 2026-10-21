@@ -1,0 +1,363 @@
+{
+ "name": "ArchAI512_H2",
+ "net": "/obj/ZRH_ArchAI512",
+ "reference": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/ArchAI512/refs/ArchAI512_height_2048.png",
+ "layers": [
+  {
+   "local": {
+    "ok": true,
+    "pixels": 226674,
+    "before": 0.0581,
+    "after": 0.0267,
+    "ls_gain": 1.8
+   },
+   "layer": "pix_s05_k16",
+   "status": "accepted",
+   "score": 0.963,
+   "gain": 0.0048,
+   "summary": {
+    "pearson": 0.9876,
+    "mae": 0.0158,
+    "low32": 1.0,
+    "b1-2": 0.9898,
+    "b4-8": 0.9998,
+    "b16-32": 0.9999,
+    "q25": 0.8924,
+    "q75": 0.8241,
+    "lines": 0.706,
+    "struct": 0.943,
+    "detail": 0.924
+   },
+   "note": "16 posterised bins of residual low pass s0.5 at 2048 px, 88184 regions",
+   "seconds": 11.2,
+   "nodes": 149,
+   "timing": {
+    "kept_layers": 25,
+    "new_layers": 1,
+    "t_nodes": 1.42,
+    "t_cook_export": 1.4
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/ArchAI512/versions/final/ArchAI512_H2/L01_pix_s05_k16.png",
+   "gates": {
+    "A_thumb64_mae_pct": 0.082,
+    "D_joint_profile_corr": 0.9959,
+    "D_joint_profile_mae_pct": 0.157,
+    "G_band_energy_ratio": {
+     "1-2": 0.959,
+     "2-4": 0.996,
+     "4-8": 1.0,
+     "8-16": 1.0,
+     "16-32": 1.0
+    },
+    "F_residual_w1_pct": 0.846,
+    "F_residual_std_ratio": 0.987,
+    "J_rmse": 0.0285,
+    "J_floor_if_stochastic": 0.0987
+   }
+  },
+  {
+   "local": {
+    "ok": true,
+    "pixels": 97532,
+    "before": 0.0496,
+    "after": 0.023,
+    "ls_gain": 1.801
+   },
+   "layer": "pix_s05_k16_p2",
+   "status": "accepted",
+   "score": 0.9647,
+   "gain": 0.0017,
+   "summary": {
+    "pearson": 0.9885,
+    "mae": 0.0152,
+    "low32": 1.0,
+    "b1-2": 0.9908,
+    "b4-8": 0.9998,
+    "b16-32": 0.9999,
+    "q25": 0.8983,
+    "q75": 0.8294,
+    "lines": 0.718,
+    "struct": 0.946,
+    "detail": 0.927
+   },
+   "note": "16 posterised bins of residual low pass s0.5 at 2048 px, 70055 regions",
+   "seconds": 10.2,
+   "nodes": 154,
+   "timing": {
+    "kept_layers": 26,
+    "new_layers": 1,
+    "t_nodes": 1.07,
+    "t_cook_export": 1.54
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/ArchAI512/versions/final/ArchAI512_H2/L02_pix_s05_k16_p2.png",
+   "gates": {
+    "A_thumb64_mae_pct": 0.082,
+    "D_joint_profile_corr": 0.9962,
+    "D_joint_profile_mae_pct": 0.152,
+    "G_band_energy_ratio": {
+     "1-2": 0.964,
+     "2-4": 0.998,
+     "4-8": 1.0,
+     "8-16": 1.0,
+     "16-32": 1.0
+    },
+    "F_residual_w1_pct": 0.808,
+    "F_residual_std_ratio": 0.99,
+    "J_rmse": 0.0275,
+    "J_floor_if_stochastic": 0.0987
+   }
+  },
+  {
+   "local": {
+    "ok": true,
+    "pixels": 42227,
+    "before": 0.0451,
+    "after": 0.0211,
+    "ls_gain": 1.81
+   },
+   "layer": "pix_s05_k16_p3",
+   "status": "accepted",
+   "score": 0.9654,
+   "gain": 0.0007,
+   "summary": {
+    "pearson": 0.9888,
+    "mae": 0.0149,
+    "low32": 1.0,
+    "b1-2": 0.9912,
+    "b4-8": 0.9998,
+    "b16-32": 0.9999,
+    "q25": 0.9011,
+    "q75": 0.8315,
+    "lines": 0.723,
+    "struct": 0.946,
+    "detail": 0.928
+   },
+   "note": "16 posterised bins of residual low pass s0.5 at 2048 px, 55903 regions",
+   "seconds": 10.1,
+   "nodes": 159,
+   "timing": {
+    "kept_layers": 27,
+    "new_layers": 1,
+    "t_nodes": 0.96,
+    "t_cook_export": 1.55
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/ArchAI512/versions/final/ArchAI512_H2/L03_pix_s05_k16_p3.png",
+   "gates": {
+    "A_thumb64_mae_pct": 0.081,
+    "D_joint_profile_corr": 0.9963,
+    "D_joint_profile_mae_pct": 0.149,
+    "G_band_energy_ratio": {
+     "1-2": 0.966,
+     "2-4": 0.998,
+     "4-8": 1.0,
+     "8-16": 1.0,
+     "16-32": 1.0
+    },
+    "F_residual_w1_pct": 0.793,
+    "F_residual_std_ratio": 0.991,
+    "J_rmse": 0.0272,
+    "J_floor_if_stochastic": 0.0987
+   }
+  },
+  {
+   "local": {
+    "ok": true,
+    "pixels": 122329,
+    "before": 0.0335,
+    "after": 0.0125,
+    "ls_gain": 1.53
+   },
+   "layer": "pix_s05_k16_m3",
+   "status": "accepted",
+   "score": 0.9674,
+   "gain": 0.002,
+   "summary": {
+    "pearson": 0.9893,
+    "mae": 0.0142,
+    "low32": 1.0,
+    "b1-2": 0.9922,
+    "b4-8": 0.9998,
+    "b16-32": 0.9999,
+    "q25": 0.9062,
+    "q75": 0.8398,
+    "lines": 0.729,
+    "struct": 0.949,
+    "detail": 0.93
+   },
+   "note": "16 posterised bins of residual low pass s0.5 at 2048 px, 364187 regions",
+   "seconds": 20.2,
+   "nodes": 164,
+   "timing": {
+    "kept_layers": 28,
+    "new_layers": 1,
+    "t_nodes": 4.38,
+    "t_cook_export": 1.66
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/ArchAI512/versions/final/ArchAI512_H2/L04_pix_s05_k16_m3.png",
+   "gates": {
+    "A_thumb64_mae_pct": 0.082,
+    "D_joint_profile_corr": 0.9964,
+    "D_joint_profile_mae_pct": 0.147,
+    "G_band_energy_ratio": {
+     "1-2": 0.97,
+     "2-4": 0.998,
+     "4-8": 1.0,
+     "8-16": 1.0,
+     "16-32": 0.999
+    },
+    "F_residual_w1_pct": 0.75,
+    "F_residual_std_ratio": 0.996,
+    "J_rmse": 0.0265,
+    "J_floor_if_stochastic": 0.0987
+   }
+  },
+  {
+   "local": {
+    "ok": true,
+    "pixels": 106616,
+    "before": 0.0323,
+    "after": 0.0116,
+    "ls_gain": 1.467
+   },
+   "layer": "pix_s05_k16_m3_p2",
+   "status": "accepted",
+   "score": 0.9692,
+   "gain": 0.0018,
+   "summary": {
+    "pearson": 0.9898,
+    "mae": 0.0136,
+    "low32": 1.0,
+    "b1-2": 0.993,
+    "b4-8": 0.9998,
+    "b16-32": 0.9999,
+    "q25": 0.9101,
+    "q75": 0.8477,
+    "lines": 0.735,
+    "struct": 0.952,
+    "detail": 0.932
+   },
+   "note": "16 posterised bins of residual low pass s0.5 at 2048 px, 338599 regions",
+   "seconds": 21.1,
+   "nodes": 169,
+   "timing": {
+    "kept_layers": 29,
+    "new_layers": 1,
+    "t_nodes": 4.01,
+    "t_cook_export": 1.6
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/ArchAI512/versions/final/ArchAI512_H2/L05_pix_s05_k16_m3_p2.png",
+   "gates": {
+    "A_thumb64_mae_pct": 0.084,
+    "D_joint_profile_corr": 0.9965,
+    "D_joint_profile_mae_pct": 0.144,
+    "G_band_energy_ratio": {
+     "1-2": 0.973,
+     "2-4": 0.998,
+     "4-8": 1.0,
+     "8-16": 1.0,
+     "16-32": 0.999
+    },
+    "F_residual_w1_pct": 0.709,
+    "F_residual_std_ratio": 0.999,
+    "J_rmse": 0.0259,
+    "J_floor_if_stochastic": 0.0987
+   }
+  },
+  {
+   "local": null,
+   "layer": "eq",
+   "status": "accepted",
+   "score": 0.9757,
+   "gain": 0.0065,
+   "summary": {
+    "pearson": 0.995,
+    "mae": 0.0113,
+    "low32": 1.0,
+    "b1-2": 0.9927,
+    "b4-8": 0.9998,
+    "b16-32": 0.9999,
+    "q25": 0.9165,
+    "q75": 0.8665,
+    "lines": 0.837,
+    "struct": 0.957,
+    "detail": 0.957
+   },
+   "note": "frequency equaliser, least squares at full resolution",
+   "seconds": 6.6,
+   "nodes": 183,
+   "timing": {
+    "kept_layers": 30,
+    "new_layers": 1,
+    "t_nodes": 0.01,
+    "t_cook_export": 1.67
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/ArchAI512/versions/final/ArchAI512_H2/L06_eq.png",
+   "gates": {
+    "A_thumb64_mae_pct": 0.085,
+    "D_joint_profile_corr": 0.9984,
+    "D_joint_profile_mae_pct": 0.112,
+    "G_band_energy_ratio": {
+     "1-2": 1.005,
+     "2-4": 1.005,
+     "4-8": 0.99,
+     "8-16": 0.994,
+     "16-32": 0.998
+    },
+    "F_residual_w1_pct": 0.35,
+    "F_residual_std_ratio": 0.975,
+    "J_rmse": 0.0182,
+    "J_floor_if_stochastic": 0.0987
+   }
+  },
+  {
+   "local": null,
+   "layer": "hist",
+   "status": "accepted",
+   "score": 0.9764,
+   "gain": 0.0007,
+   "summary": {
+    "pearson": 0.9951,
+    "mae": 0.0113,
+    "low32": 1.0,
+    "b1-2": 0.9929,
+    "b4-8": 0.9998,
+    "b16-32": 0.9999,
+    "q25": 0.9218,
+    "q75": 0.8697,
+    "lines": 0.837,
+    "struct": 0.958,
+    "detail": 0.957
+   },
+   "note": "histogram matched to reference",
+   "seconds": 6.8,
+   "nodes": 184,
+   "timing": {
+    "kept_layers": 31,
+    "new_layers": 1,
+    "t_nodes": 0.0,
+    "t_cook_export": 1.75
+   },
+   "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/ArchAI512/versions/final/ArchAI512_H2/L07_hist.png",
+   "gates": {
+    "A_thumb64_mae_pct": 0.139,
+    "D_joint_profile_corr": 0.9984,
+    "D_joint_profile_mae_pct": 0.117,
+    "G_band_energy_ratio": {
+     "1-2": 1.013,
+     "2-4": 1.015,
+     "4-8": 1.001,
+     "8-16": 1.005,
+     "16-32": 1.008
+    },
+    "F_residual_w1_pct": 0.295,
+    "F_residual_std_ratio": 0.983,
+    "J_rmse": 0.0181,
+    "J_floor_if_stochastic": 0.0987
+   }
+  }
+ ],
+ "cells": [
+  1,
+  1
+ ]
+}
