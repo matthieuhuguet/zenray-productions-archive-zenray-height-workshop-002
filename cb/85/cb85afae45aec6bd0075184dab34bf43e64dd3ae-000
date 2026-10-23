@@ -1,0 +1,9 @@
+STEP 1/5 features | 5 relief features of /obj/ZRH_ArchAI512/ALIGN_OUT, 1.1 s
+STEP 2/5 reference | AI base color read through the existing remap, 65.9 % island pixels
+STEP 3/5 gradient maps | islands Delta E 9.4893, luminance r 0.7036, SSIM 0.5688
+STEP 4/5 regions K 8 at 256 | accepted, islands Delta E 6.6406, luminance r 0.817, 3330 polygons
+STEP 4/5 regions K 12 at 512 | accepted, islands Delta E 5.8665, luminance r 0.8559, 19272 polygons
+STEP 4/5 regions K 16 at 1024 | accepted, islands Delta E 4.8612, luminance r 0.9015, 85480 polygons
+STEP 4/5 regions K 24 at 2048 | accepted, islands Delta E 4.1723, luminance r 0.9283, 322620 polygons
+STEP 5/5 final | islands Delta E 4.1723, 4 px 0.4691, luminance r 0.9283, SSIM 0.7228 ; copied to /Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/03_work/uv/ZenRayUV_5Methods_19-October-2026/runs/height-inputs/tmp-ZRUV_Arch512/heights/final_01_zenray-basecolor.png ; 119 s
+{"islands": {"deltaE76_mean": 4.1723, "deltaE76_p90": 8.762, "deltaE76_blur4_mean": 0.4691, "lum_pearson": 0.9283, "lum_ssim": 0.7228}, "whole_sheet": {"deltaE76_mean": 3.6967, "deltaE76_p90": 8.1609, "deltaE76_blur4_mean": 0.4403, "lum_pearson": 0.9487, "lum_ssim": 0.7503}, "image": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/ZRH_ArchAI512_BC/FINAL_basecolor.png", "seconds": 119.5}
